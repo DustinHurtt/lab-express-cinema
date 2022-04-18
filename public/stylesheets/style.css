@@ -6,3 +6,23 @@ body {
 a {
   color: #00B7FF;
 }
+
+.movies {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.details {
+  display: flex;
+  flex-direction: row;
+}
+
+.index {
+  background-image: url(/images/cinema.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  height: 100vh;
+
+}

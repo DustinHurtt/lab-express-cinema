@@ -1,0 +1,22 @@
+<h2>Movies</h2>
+<div class="container">
+<div class="movies col-6 ">
+    {{#each movies}}
+
+    <ul>
+
+   <img src="{{this.image}} "/>
+   <p> {{this.title}} </p>
+
+<a href="/movies/{{this._id}}">See More</a>
+
+</ul>
+
+{{!-- <hr></hr> --}}
+
+    {{/each}}
+
+</div>
+
+</div>
+
